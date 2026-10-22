@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tracy 個人日曆同步：隱私權說明</title><style>*{box-sizing:border-box}html{color-scheme:light}body{margin:0;background:#f7f7f2;color:#223932;font:17px/1.85 system-ui,-apple-system,"Segoe UI",sans-serif}main{max-width:800px;margin:auto;padding:64px 28px 80px}header{border-bottom:2px solid #b0c5b9;padding-bottom:20px;margin-bottom:32px}h1{font-size:clamp(1.8rem,5vw,2.6rem);line-height:1.4;letter-spacing:-.03em;margin:0}h2{font-size:1.2rem;margin-top:36px;line-height:1.5}p{margin:18px 0}a{color:#166a56;text-underline-offset:.2em;overflow-wrap:anywhere}a:focus-visible{outline:3px solid #166a56;outline-offset:4px}footer{margin-top:42px;border-top:1px solid #b0c5b9;padding-top:18px}@media(max-width:480px){main{padding:32px 22px 48px}body{font-size:16px}}</style></head><body><main><header><h1>Tracy 個人日曆同步：隱私權說明</h1></header>
+<p>更新日期：2026-10-22。</p>
+<h2>適用範圍與用途</h2>
+<p>本說明適用於帳號持有人本人在 Windows 電腦執行的 Tracy Google 日曆連線。用途是核對本人身分、辨識本人主日曆，以及在另外取得明確同步核准後，處理該核准範圍中的旅行事件。登入與日曆同步啟用分開。</p>
+<h2>Google 權限與資料</h2>
+<p>工具請求 openid、userinfo.email、calendar.calendarlist.readonly、calendar.events.owned 四項權限。前兩者用於身分與電子郵件核對；日曆清單用於辨識主日曆與擁有者。</p>
+<p>calendar.events.owned 在 Google 層面的能力涵蓋讀取、建立、修改及刪除本人擁有的所有日曆事件。Tracy 的實際執行仍受本人另外核准的旅程、事件、日期、時區、操作種類及版本限制；這項權限不代表已獲准任意讀取或變更私人事件。目前在事件同步獲准前，只做本人身分與日曆清單核對。</p>
+<h2>保存與安全</h2>
+<p>登入與更新憑證使用 Windows 當前使用者 DPAPI 加密，保存在本人控制的本機受限資料夾；不將憑證放入公開網站或原始碼儲存庫。必要操作紀錄只保留可追溯狀態及去除秘密的結果，不記錄原始密碼、驗證碼、授權碼、完整回傳網址或 token。</p>
+<p>本機資料由本人決定保留期限；不宣稱已提供自動刪除功能。Google 帳號撤銷權限與本機檔案刪除是不同操作，需分別處理。</p>
+<h2>分享與使用限制</h2>
+<p>這個日曆連線不出售 Google 使用者資料，不用於廣告，也不將 Google 日曆資料用於訓練通用 AI 模型。原生連線只向 Google 官方授權及日曆 API 提出所需請求；公開說明網站不接收 token 或私人日曆資料。本人另外將資料交給其他服務的操作，須依該次明確指示及對應服務規則處理。</p>
+<p>Tracy 對 Google API 所取得資料的使用與傳輸應遵循 Google API Services User Data Policy 及其中 Limited Use 的要求：https://developers.google.com/terms/api-services-user-data-policy 。</p>
+<h2>撤銷與移除</h2>
+<p>本人可在 Google 帳號的第三方連線管理撤銷 Tracy 的存取。撤銷後須停止相關本機操作；若需要移除加密憑證或其他本機保存資料，請另行要求指定範圍的安全清理，不能將撤銷權限等同於本機資料已刪除。</p>
+<h2>公開網站</h2>
+<p>若採 GitHub Pages 託管，公開儲存庫與網站僅包含本工具介紹及這份隱私權說明，不包含私人程式設定、Google client secret、token、私人行程或旅客資料。GitHub 會依其政策記錄網站訪客的IP等安全日誌，見 https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement 。本頁不另外加入分析追蹤、廣告、表單或登入程式。</p>
+<h2>聯絡</h2>
+<p>使用者支援及資料處理聯絡：silentsoul2004@gmail.com。</p>
+<footer><a href="./">Tracy 個人日曆同步</a></footer></main></body></html>
